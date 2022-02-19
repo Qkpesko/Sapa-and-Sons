@@ -439,6 +439,12 @@ label span{
     .COL_1, .COL_2, .COL_3, .COL_4{
         width: 100%;
     }
+    .first_desc h3{
+        font-size: 0.8rem;
+    }
+    .second_desc h4{
+        font-size: 0.4rem;
+    }
     
     
 }
