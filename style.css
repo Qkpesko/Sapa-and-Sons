@@ -333,7 +333,7 @@ label span{
     }
     section.small_nav .left{
         width: 60%;
-
+    }
 
 
 }
@@ -825,6 +825,7 @@ p+p{
     margin-top: 15rem;
     margin-bottom: 15rem;
     transform: translate(-50%, -50%);
+    align-content: center;
 }
 
 .middle_box h1{
@@ -860,8 +861,20 @@ p+p{
     .two_boxes{
         display: flex;
         flex-direction: column;
-        margin: 0;
+        justify-content: center;
+        margin: auto;
         margin-top: 12rem;
+        margin-left: 4.8rem;
+    }
+
+.middle_box h1{
+    font-size: 0.7rem;
+    padding-bottom:1rem;
+}
+.right_box{
+    margin-top: 1rem;}
+        /*margin: 0;
+        
         margin-left: 0;
         margin-right: 15rem
     }
