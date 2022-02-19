@@ -816,15 +816,13 @@ p+p{
     border-radius: 10px;
     padding-left: 5.3%;
     padding-right: 3.8%;
+    justify-content: center;
 }
 
 .two_boxes{
-    position: relative;
-    top: 50%;
-    left: 50%;
+    
     margin-top: 15rem;
     margin-bottom: 15rem;
-    transform: translate(-50%, -50%);
     align-content: center;
 }
 
@@ -835,8 +833,11 @@ p+p{
 
 .two_boxes{
     display: flex;
-    margin: 8rem 40rem 0 0;
+    margin: 0 auto;
+    align-items: center;
+    width: 45%;
     justify-content: space-between;
+    padding-bottom: 4rem;
 }
 
 .left_box, .right_box{
@@ -862,9 +863,8 @@ p+p{
         display: flex;
         flex-direction: column;
         justify-content: center;
+        align-items: center;
         margin: auto;
-        margin-top: 12rem;
-        margin-left: 2rem;
     }
 
 .middle_box h1{
