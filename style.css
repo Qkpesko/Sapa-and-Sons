@@ -159,11 +159,24 @@ div.sosho_medium{
         font-size: 0.7rem;
     }
     div.left-col h1{
-        font-size: 3rem;
-        line-height: 4rem;
+        font-size: 2rem;
+        line-height: 2.4rem;
     }
     div.left-col p{
-        font-size: 0.9rem;
+        font-size: 0.7rem;
+    }
+    div .right-col img{
+        width: 100%;
+    }
+    button{
+        height: 1.5rem;
+        width: 6rem;
+        background-color: #dacc3e;
+        color: #0d324d;
+        border: none;
+        border-radius: 0.13rem;
+        font-size: 0.5rem;
+        font-weight: 700;
     }
 }
 
@@ -801,7 +814,7 @@ p+p{
     margin-top: 4rem;
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:400px) {
     .two_boxes{
         display: flex;
         flex-direction: column;
