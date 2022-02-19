@@ -766,6 +766,7 @@ p+p{
         margin-bottom: 1.5rem;
         display: flex;
         flex-direction: column;
+        padding: 0;
     }
     .area_text .second_desc h4{
         font-size: 0.6rem;
