@@ -764,6 +764,8 @@ p+p{
     .col_left, .col_right{
         width: 100%;
         margin-bottom: 1.5rem;
+        display: flex;
+        flex-direction: column;
     }
     .area_text .second_desc h4{
         font-size: 0.6rem;
@@ -786,7 +788,8 @@ p+p{
         margin-left: 11.5rem;
     }
     .area_text{
-        width: 55%;
+        width: 90%;
+        margin: 0 auto;
     }
     
 }
